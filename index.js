@@ -52,12 +52,12 @@ const questions = () =>  inquirer.prompt([
         message: "Please enter your email address..."
     }
 ]);
-questions().then(answers => console.log(answers))
+questions().then(answers => writeToFile(answers))
 
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {
-    fs.writeFile("./generated-files/README.md",generateMarkdown, err =>{
+function writeToFile( data) {
+    fs.writeFile("./generated-files/README.md",generateMarkdown(data), err =>{
         if(err){
             throw err;
         }
