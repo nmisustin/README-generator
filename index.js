@@ -16,7 +16,7 @@ const questions = () =>  inquirer.prompt([
         message: "Please write a short description of your project..."
     },
     {
-        name: "instalation",
+        name: "installation",
         type: "input",
         message: "Please describe how you can install your project..."
     },
@@ -31,7 +31,7 @@ const questions = () =>  inquirer.prompt([
         message: "Please describe how to use your project."
     },
     {
-        name: "contributions",
+        name: "credits",
         type: "input",
         message: "Please list who contributed to this project."
     },
@@ -50,9 +50,18 @@ const questions = () =>  inquirer.prompt([
         name: "email",
         type: "input",
         message: "Please enter your email address..."
+    },
+    {
+        name: "tests",
+        type: "input",
+        message: "Write about any tests you might have written for this project..."
+    },
+    {
+        name: "contributions",
+        type: "input",
+        message: "Please write guidelines for others who would like to contribute..."
     }
 ]);
-questions().then(answers => writeToFile(answers))
 
 
 // TODO: Create a function to write README file
@@ -66,7 +75,9 @@ function writeToFile( data) {
 }
 
 // TODO: Create a function to initialize app
-function init() {}
+function init() {
+    questions().then(answers => writeToFile(answers))
+}
 
 // Function call to initialize app
 init();
