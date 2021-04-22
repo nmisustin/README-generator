@@ -1,7 +1,7 @@
-# Project 
-  [![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)
+# Example Project
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
   ## Description
-  ...
+  This is an example of hew the README generator works.
   ## Table of Contents
   * [Installation](#installation)
   * [Usage](#usage)
@@ -10,16 +10,16 @@
   * [Tests](#tests)
   * [Questions](#questions)
   ## Installation
-  ...
+  n/a
   ## Usage
-  ...
+  You run this project using Node.js in the command line.
   ## Credits
-  ...
+  Nicolette Misustin
   ## Liscence
-  Licensed under the BSD 3 license(https://opensource.org/licenses/BSD-3-Clause)
+  Licensed under the MIT [license](https://opensource.org/licenses/MIT)
   ## Tests
-  ...
+  n/a
   ## Contributions
-  ...
+  n/a
   ## Questions
-  If you have any questions the creator can be contacted at this email(...), or their GitHub can be viewed at github.com/....
+  If you have any questions the creator can be contacted at this [email](nmisustin@gmail.com), or their GitHub can be viewed at github.com/nmisustin.
