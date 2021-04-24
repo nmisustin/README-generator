@@ -1,4 +1,4 @@
-# Example Project
+# readme-generator
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
   ## Description
   This is an example of hew the README generator works.
@@ -13,6 +13,7 @@
   n/a
   ## Usage
   You run this project using Node.js in the command line.
+  Video demonstrating usage: https://drive.google.com/file/d/1P8ufMbeejZ31GKw9P6uHbitwS9xW6Srv/view
   ## Credits
   Nicolette Misustin
   ## Liscence
